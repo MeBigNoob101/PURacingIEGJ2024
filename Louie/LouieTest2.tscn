@@ -18,8 +18,29 @@ sky_material = SubResource("ProceduralSkyMaterial_r70bb")
 
 [sub_resource type="Environment" id="Environment_n44sb"]
 background_mode = 2
-background_energy_multiplier = 2.0
+background_color = Color(0.742504, 0.639067, 0.717904, 1)
+background_energy_multiplier = 1.82
 sky = SubResource("Sky_r4ja8")
+ambient_light_color = Color(0.726821, 0.208074, 0.419396, 1)
+ambient_light_energy = 0.0
+tonemap_exposure = 0.9
+ssr_max_steps = 204
+ssr_fade_in = 0.126134
+ssr_fade_out = 1.6245
+ssao_enabled = true
+ssao_radius = 0.01
+ssil_radius = 5.34
+ssil_intensity = 2.68
+fog_light_color = Color(0.331752, 0.43946, 0.751553, 1)
+fog_light_energy = 0.16
+fog_sun_scatter = 0.58
+fog_density = 0.0205
+fog_height = 194.02
+fog_height_density = -10.1053
+adjustment_enabled = true
+adjustment_brightness = 3.94
+adjustment_contrast = 3.94
+adjustment_saturation = 2.6
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_v25g6"]
 size = Vector3(1, 29.4424, 62.4586)
@@ -92,7 +113,8 @@ transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, 
 script = ExtResource("5_s4ola")
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Vehicle Body"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.772308, -0.641054)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.259998, -0.482046, -1.591)
+amount = 7
 process_material = SubResource("ParticleProcessMaterial_c4ewb")
 draw_pass_1 = SubResource("PlaneMesh_i6fr2")
 
