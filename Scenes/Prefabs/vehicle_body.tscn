@@ -128,7 +128,7 @@ transform = Transform3D(-1, -4.9738e-14, 8.74228e-08, 3.23101e-08, 0.929197, 0.3
 script = ExtResource("4_evmu0")
 
 [node name="Camera3D" type="Camera3D" parent="Camera Controller"]
-transform = Transform3D(1, 0, 1.42109e-14, 0, 1, -2.98023e-08, 0, 2.98023e-08, 1, 0, 0, 0)
+transform = Transform3D(1, -4.88463e-09, -1.36403e-10, 4.88461e-09, 0.998438, 0.0558734, -1.36723e-10, -0.0558734, 0.998438, 7.93784e-08, 0.114908, 0.907999)
 doppler_tracking = 2
 fov = 63.8
 
